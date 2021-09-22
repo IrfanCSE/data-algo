@@ -1,0 +1,13 @@
+/media/irfan/Spidy/Dev/Console/Algorithm/Csharp/DsAlgo/bin/Debug/netcoreapp3.1/DsAlgo
+/media/irfan/Spidy/Dev/Console/Algorithm/Csharp/DsAlgo/bin/Debug/netcoreapp3.1/DsAlgo.deps.json
+/media/irfan/Spidy/Dev/Console/Algorithm/Csharp/DsAlgo/bin/Debug/netcoreapp3.1/DsAlgo.runtimeconfig.json
+/media/irfan/Spidy/Dev/Console/Algorithm/Csharp/DsAlgo/bin/Debug/netcoreapp3.1/DsAlgo.runtimeconfig.dev.json
+/media/irfan/Spidy/Dev/Console/Algorithm/Csharp/DsAlgo/bin/Debug/netcoreapp3.1/DsAlgo.dll
+/media/irfan/Spidy/Dev/Console/Algorithm/Csharp/DsAlgo/bin/Debug/netcoreapp3.1/DsAlgo.pdb
+/media/irfan/Spidy/Dev/Console/Algorithm/Csharp/DsAlgo/obj/Debug/netcoreapp3.1/DsAlgo.csprojAssemblyReference.cache
+/media/irfan/Spidy/Dev/Console/Algorithm/Csharp/DsAlgo/obj/Debug/netcoreapp3.1/DsAlgo.AssemblyInfoInputs.cache
+/media/irfan/Spidy/Dev/Console/Algorithm/Csharp/DsAlgo/obj/Debug/netcoreapp3.1/DsAlgo.AssemblyInfo.cs
+/media/irfan/Spidy/Dev/Console/Algorithm/Csharp/DsAlgo/obj/Debug/netcoreapp3.1/DsAlgo.csproj.CoreCompileInputs.cache
+/media/irfan/Spidy/Dev/Console/Algorithm/Csharp/DsAlgo/obj/Debug/netcoreapp3.1/DsAlgo.dll
+/media/irfan/Spidy/Dev/Console/Algorithm/Csharp/DsAlgo/obj/Debug/netcoreapp3.1/DsAlgo.pdb
+/media/irfan/Spidy/Dev/Console/Algorithm/Csharp/DsAlgo/obj/Debug/netcoreapp3.1/DsAlgo.genruntimeconfig.cache
