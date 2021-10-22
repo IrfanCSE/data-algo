@@ -298,26 +298,5 @@ namespace Tree
             CountLeafNode(node.leftNode, ref counter);
             CountLeafNode(node.RightNode, ref counter);
         }
-
-        public int CountLeafNodeOpt()
-        {
-            return CountLeafNodeOpt(root, 0);
-        }
-        private int CountLeafNodeOpt(Node node, int counter)
-        {
-            if (node == null)
-            {
-                return 0;
-            }
-
-            if (node.leftNode == null && node.RightNode == null)
-            {
-                return 1;
-            }
-
-            counter += CountLeafNodeOpt(node.leftNode, counter);
-            counter += CountLeafNodeOpt(node.RightNode, counter);
-            return counter;
-        }
     }
 }
