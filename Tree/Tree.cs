@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace Tree
 {
@@ -241,6 +242,29 @@ namespace Tree
 
             return IsBinarySearchTree(node.leftNode, min, node.value - 1) &&
                     IsBinarySearchTree(node.RightNode, node.value + 1, max);
+        }
+
+        public void GetDistanceOfKth(int k)
+        {
+            // var list = new List<int>();
+            GetDistanceOfKth(root, k);
+        }
+        private void GetDistanceOfKth(Node node, int k)
+        {
+            if (node == null)
+            {
+                return;
+            }
+
+            if (k == 0)
+            {
+                System.Console.WriteLine(node.value);
+            }
+
+            GetDistanceOfKth(node.leftNode, k - 1);
+            GetDistanceOfKth(node.RightNode, k - 1);
+
+            return;
         }
     }
 }

@@ -41,8 +41,8 @@ namespace Tree
 
             // tree.Print();
 
-            Console.WriteLine(tree.IsBinarySearchTree());
-
+            // Console.WriteLine();
+            tree.GetDistanceOfKth(3);
         }
     }
 }
