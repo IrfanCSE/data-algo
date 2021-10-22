@@ -42,7 +42,8 @@ namespace Tree
             // tree.Print();
 
             // Console.WriteLine();
-            tree.GetDistanceOfKth(3);
+            // tree.GetDistanceOfKth(3);
+            tree.GetLevelWiseTree();
         }
     }
 }

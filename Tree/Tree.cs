@@ -155,15 +155,15 @@ namespace Tree
                 return 0;
             }
             var left = Height(node.leftNode);
-            if (node.leftNode != null)
-            {
-                System.Console.WriteLine($"node:{node.leftNode.value}, value- {left}");
-            }
+            // if (node.leftNode != null)
+            // {
+            //     System.Console.WriteLine($"node:{node.leftNode.value}, value- {left}");
+            // }
             var right = Height(node.RightNode);
-            if (node.RightNode != null)
-            {
-                System.Console.WriteLine($"node:{node.RightNode.value}, value- {right}");
-            }
+            // if (node.RightNode != null)
+            // {
+            //     System.Console.WriteLine($"node:{node.RightNode.value}, value- {right}");
+            // }
 
             var r = 1 + Math.Max(left, right);
             // System.Console.WriteLine(r);
@@ -265,6 +265,16 @@ namespace Tree
             GetDistanceOfKth(node.RightNode, k - 1);
 
             return;
+        }
+
+        public void GetLevelWiseTree()
+        {
+            var h = Height();
+
+            for (int i = 0; i <= h; i++)
+            {
+                GetDistanceOfKth(i);
+            }
         }
     }
 }
