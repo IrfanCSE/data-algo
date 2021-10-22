@@ -216,5 +216,31 @@ namespace Tree
 
             return false;
         }
+
+        public void Swap()
+        {
+            var temp = root.leftNode;
+            root.leftNode = root.RightNode;
+            root.RightNode = temp;
+        }
+        public bool IsBinarySearchTree()
+        {
+            return IsBinarySearchTree(root, Int64.MinValue, Int64.MaxValue);
+        }
+        private bool IsBinarySearchTree(Node node, long min, long max)
+        {
+            if (node == null)
+            {
+                return true;
+            }
+
+            if (node.value < min || node.value > max)
+            {
+                return false;
+            }
+
+            return IsBinarySearchTree(node.leftNode, min, node.value - 1) &&
+                    IsBinarySearchTree(node.RightNode, node.value + 1, max);
+        }
     }
 }
