@@ -276,5 +276,48 @@ namespace Tree
                 GetDistanceOfKth(i);
             }
         }
+
+        public int CountLeafNode()
+        {
+            var counter = 0;
+            CountLeafNode(root, ref counter);
+            return counter;
+        }
+        private void CountLeafNode(Node node, ref int counter)
+        {
+            if (node == null)
+            {
+                return;
+            }
+
+            if (node.leftNode == null && node.RightNode == null)
+            {
+                counter++;
+            }
+
+            CountLeafNode(node.leftNode, ref counter);
+            CountLeafNode(node.RightNode, ref counter);
+        }
+
+        public int CountLeafNodeOpt()
+        {
+            return CountLeafNodeOpt(root, 0);
+        }
+        private int CountLeafNodeOpt(Node node, int counter)
+        {
+            if (node == null)
+            {
+                return 0;
+            }
+
+            if (node.leftNode == null && node.RightNode == null)
+            {
+                return 1;
+            }
+
+            counter += CountLeafNodeOpt(node.leftNode, counter);
+            counter += CountLeafNodeOpt(node.RightNode, counter);
+            return counter;
+        }
     }
 }

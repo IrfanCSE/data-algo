@@ -11,14 +11,14 @@ namespace Tree
             // [10, 5, 15, 6, 1, 8, 12, 18, 17]
 
             tree.Insert(10);
-            tree.Insert(5);
-            tree.Insert(15);
-            tree.Insert(6);
-            tree.Insert(1);
-            tree.Insert(8);
-            tree.Insert(12);
-            tree.Insert(18);
-            tree.Insert(17);
+            // tree.Insert(5);
+            // tree.Insert(15);
+            // tree.Insert(6);
+            // tree.Insert(1);
+            // tree.Insert(8);
+            // tree.Insert(12);
+            // tree.Insert(18);
+            // tree.Insert(17);
 
 
             // var tree2 = new Tree();
@@ -41,9 +41,10 @@ namespace Tree
 
             // tree.Print();
 
-            // Console.WriteLine();
+            Console.WriteLine(tree.CountLeafNodeOpt());
+            // Console.WriteLine(tree.CountLeafNode());
             // tree.GetDistanceOfKth(3);
-            tree.GetLevelWiseTree();
+            // tree.GetLevelWiseTree();
         }
     }
 }
