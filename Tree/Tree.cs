@@ -182,13 +182,39 @@ namespace Tree
             if (node.leftNode == null && node.RightNode != null)
             {
                 return node.RightNode.value;
-            }else
+            }
+            else
             if (node.leftNode != null && node.RightNode == null)
             {
                 return node.leftNode.value;
             }
 
             return Math.Min(Math.Min(MinValue(node.leftNode), MinValue(node.RightNode)), node.value);
+        }
+
+        public bool Equals(Tree other)
+        {
+            if (other == null)
+            {
+                return false;
+            }
+            return Equals(root, other.root);
+        }
+        private bool Equals(Node A, Node B)
+        {
+            if (A == null && B == null)
+            {
+                return true;
+            }
+
+            if (A != null && B != null)
+            {
+                return A.value == B.value &&
+                    Equals(A.leftNode, B.leftNode) &&
+                    Equals(A.RightNode, B.RightNode);
+            }
+
+            return false;
         }
     }
 }
