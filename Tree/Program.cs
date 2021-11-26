@@ -41,8 +41,8 @@ namespace Tree
 
             // tree.Print();
 
-            Console.WriteLine(tree.CountLeafNode());
-            // tree.GetDistanceOfKth(3);
+            // Console.WriteLine(tree.CountLeafNode());
+            tree.GetDistanceOfKth(3);
             // tree.GetLevelWiseTree();
         }
     }

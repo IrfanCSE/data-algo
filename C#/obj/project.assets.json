@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/media/irfan/Spidy/Dev/Console/Algorithm/C#/Algorithm.csproj",
+      "projectUniqueName": "/home/irfan/console/data-algo/C#/Algorithm.csproj",
       "projectName": "Algorithm",
-      "projectPath": "/media/irfan/Spidy/Dev/Console/Algorithm/C#/Algorithm.csproj",
+      "projectPath": "/home/irfan/console/data-algo/C#/Algorithm.csproj",
       "packagesPath": "/home/irfan/.nuget/packages/",
-      "outputPath": "/media/irfan/Spidy/Dev/Console/Algorithm/C#/obj/",
+      "outputPath": "/home/irfan/console/data-algo/C#/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/irfan/.nuget/NuGet/NuGet.Config"
@@ -30,6 +30,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -41,6 +42,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -51,12 +53,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.linux-x64",
+            "version": "[3.1.21, 3.1.21]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
       }
     }
   }

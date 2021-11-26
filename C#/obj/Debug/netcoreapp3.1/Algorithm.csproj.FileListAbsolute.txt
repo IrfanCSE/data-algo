@@ -30,3 +30,17 @@ E:/Console/Algorithm/obj/Debug/netcoreapp3.1/Algorithm.genruntimeconfig.cache
 /media/irfan/Spidy/Dev/Console/Algorithm/C#/obj/Debug/netcoreapp3.1/Algorithm.dll
 /media/irfan/Spidy/Dev/Console/Algorithm/C#/obj/Debug/netcoreapp3.1/Algorithm.pdb
 /media/irfan/Spidy/Dev/Console/Algorithm/C#/obj/Debug/netcoreapp3.1/Algorithm.genruntimeconfig.cache
+/home/irfan/console/data-algo/C#/bin/Debug/netcoreapp3.1/Algorithm
+/home/irfan/console/data-algo/C#/bin/Debug/netcoreapp3.1/Algorithm.deps.json
+/home/irfan/console/data-algo/C#/bin/Debug/netcoreapp3.1/Algorithm.runtimeconfig.json
+/home/irfan/console/data-algo/C#/bin/Debug/netcoreapp3.1/Algorithm.runtimeconfig.dev.json
+/home/irfan/console/data-algo/C#/bin/Debug/netcoreapp3.1/Algorithm.dll
+/home/irfan/console/data-algo/C#/bin/Debug/netcoreapp3.1/Algorithm.pdb
+/home/irfan/console/data-algo/C#/obj/Debug/netcoreapp3.1/Algorithm.AssemblyInfoInputs.cache
+/home/irfan/console/data-algo/C#/obj/Debug/netcoreapp3.1/Algorithm.AssemblyInfo.cs
+/home/irfan/console/data-algo/C#/obj/Debug/netcoreapp3.1/Algorithm.csproj.CoreCompileInputs.cache
+/home/irfan/console/data-algo/C#/obj/Debug/netcoreapp3.1/Algorithm.dll
+/home/irfan/console/data-algo/C#/obj/Debug/netcoreapp3.1/Algorithm.pdb
+/home/irfan/console/data-algo/C#/obj/Debug/netcoreapp3.1/Algorithm.genruntimeconfig.cache
+/home/irfan/console/data-algo/C#/obj/Debug/netcoreapp3.1/Algorithm.csproj.AssemblyReference.cache
+/home/irfan/console/data-algo/C#/obj/Debug/netcoreapp3.1/Algorithm.GeneratedMSBuildEditorConfig.editorconfig

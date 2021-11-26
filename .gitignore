@@ -433,3 +433,6 @@ $RECYCLE.BIN/
 !.vscode/extensions.json
 C#/obj/Debug/netcoreapp3.1/Algorithm.assets.cache
 Csharp/DsAlgo/obj/Debug/netcoreapp3.1/DsAlgo.assets.cache
+Csharp/DsAlgo/obj/Debug/netcoreapp3.1/DsAlgo.assets.cache
+C#/bin/Debug/netcoreapp3.1/Algorithm
+C#/bin/Debug/netcoreapp3.1/Algorithm.dll

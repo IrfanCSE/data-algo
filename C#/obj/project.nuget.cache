@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "N5lsX1AhDteLJzHZM6tx3RlGzMvvNTtCXNZ+uH4/g4X36sLOKRSkHuwTPa/BiLIrHroeZxMqqO/JVkLukV9AzA==",
+  "dgSpecHash": "ufLuzZ3H/Ol3h9mBbhADvdSXr/B9x5ZgTJciewCrBq+iFJvBljZ+ozY1Y/9Yc8RT4stkjvQgljR3J9uHXa/hew==",
   "success": true,
-  "projectFilePath": "/media/irfan/Spidy/Dev/Console/Algorithm/C#/Algorithm.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/irfan/console/data-algo/C#/Algorithm.csproj",
+  "expectedPackageFiles": [
+    "/home/irfan/.nuget/packages/microsoft.netcore.app.host.linux-x64/3.1.21/microsoft.netcore.app.host.linux-x64.3.1.21.nupkg.sha512"
+  ],
   "logs": []
 }
